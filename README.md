@@ -13,7 +13,7 @@ This is by no means a secure solution. So, use it with security in mind.
 
 #Requirements
 * A network-enabled Pioneer receiver (tested on VSX-823); add your station as a favorite on your device [this website is your friend](pioneer.vtuner.com)
-* A home server running [EventGhost](www.eventghost.org)
+* A home server running [EventGhost](http://www.eventghost.org)
 * Access to your home server outside your network (optional); this can be done with port-forwarding and a [dynamic DNS](www.noip.com)
 * An Android device with [Tasker](tasker.dinglisch.net) installed (optional automation)
 
