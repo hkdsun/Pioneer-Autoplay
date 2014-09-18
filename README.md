@@ -1,7 +1,7 @@
 Pioneer-Autoplay
 ================
 
-If you are in love with a radio station like [Radio Paradise](www.radioparadise.com) like I am and you want it to play on your Pioneer receiver 24/7 then there is a solution.
+If you are in love with a radio station like [Radio Paradise](http://www.radioparadise.com) like I am and you want it to play on your Pioneer receiver 24/7 then there is a solution.
 
 This hack exploits Pioneer's Telnet capable receivers. So, the first step would be to try to find out the port on which your receiver can create a telnet session.
 
@@ -12,10 +12,10 @@ Use the command
 This is by no means a secure solution. So, use it with security in mind.
 
 #Requirements
-* A network-enabled Pioneer receiver (tested on VSX-823); add your station as a favorite on your device [this website is your friend](pioneer.vtuner.com)
+* A network-enabled Pioneer receiver (tested on VSX-823); add your station as a favorite on your device [this website is your friend](http://pioneer.vtuner.com)
 * A home server running [EventGhost](http://www.eventghost.org)
-* Access to your home server outside your network (optional); this can be done with port-forwarding and a [dynamic DNS](www.noip.com)
-* An Android device with [Tasker](tasker.dinglisch.net) installed (optional automation)
+* Access to your home server outside your network (optional); this can be done with port-forwarding and a [dynamic DNS](http://www.noip.com)
+* An Android device with [Tasker](http://tasker.dinglisch.net) installed (optional automation)
 
 #Usage
 The purpose of this repository is to provide reliable code that can interact with your Pioneer receiver. There are plenty of resources on EventGhost, Tasker, and accessing your host remotely
