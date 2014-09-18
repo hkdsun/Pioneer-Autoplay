@@ -22,15 +22,15 @@ The purpose of this repository is to provide reliable code that can interact wit
 
 #Tutorial
 * Open up EG and right-click Autostart in your Configuration Tree
-* Choose Plugin -> Other -> Webserver
+* Choose Plugin > Other > Webserver
 * Setup webserver on port of your choice and enable that port on your router
-* Generate an event by browsing to http://user:password@serveraddress:port/?EventName for example: http://admin:1234@localhost:80/?PioneerON
+* Generate an event by browsing to `http://user:password@serveraddress:port/?EventName` for example: `http://admin:1234@localhost:80/?PioneerON`
 	- user, password, and port are setup in eventghost's webserver plugin
 	- you will get a 404 when you go to the URLs above but an event is generated regardless
 	- you could bind it to a simple html document if you wish. see the webserver plugin support
-* You should now see an event logged "HTTP.PioneerON []" in your eventghost log
-* Add a new macro (e.g. "Turn Pioneer ON") by right-clicking your configuration tree and drag the generated event (e.g. "HTTP.PioneerON []") into it
-* Right-click the macro ("Turn Pioneer ON") and select "Add Action -> EventGhost -> Python Script" and paste the code
+* You should now see an event logged `HTTP.PioneerON []` in your eventghost log
+* Add a new macro (e.g. `Turn Pioneer ON`) by right-clicking your configuration tree and drag the generated event (e.g. `HTTP.PioneerON []`) into it
+* Right-click the macro `Turn Pioneer ON` and select "Add Action > EventGhost > Python Script" and paste the code
 * Test your macro by right-clicking and selecting "Execute Item"
-* Browsing to http://admin:1234@localhost:80/?PioneerON will now trigger the macro
+* Browsing to `http://admin:1234@localhost:80/?PioneerON` will now trigger the macro
 * Use an automation application like Tasker, where HTTP Get is supported, to trigger your macro

@@ -2,7 +2,7 @@ import getpass
 import sys
 import telnetlib
 
-HOST = "192.168.0.1000" #Reserve this address through your router
+HOST = "192.168.0.100" #Reserve this address through your router
 PORT = 8102 #May be different for your receiver. see readme.
 
 tn = telnetlib.Telnet(HOST, PORT) #Open telnet session
